@@ -2,13 +2,11 @@
     Universidad de los Andes, Bogotá - Colombia.
     Lenguajes y Máquinas 2023-2.
 
-    Este modulo contiene las palabras reservadas del lenguaje definido para
-    el robot, así como los formatos de las funciones, procedimientos entre otros.
+    Este modulo contiene la especificación de los tokens del lenguaje reservado.
 
     Autores:
         - David Jimenez Mora Cod. 202213799.
-        - Catalina Álvarez Latorre Cod. 202220307.
-
+        - Gustavo Candela Rico Cod. 202223857.
 """
 
 TOKEN_SPECIFICATION = [
