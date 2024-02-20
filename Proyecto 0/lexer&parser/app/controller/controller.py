@@ -1,6 +1,13 @@
 """
+    Universidad de los Andes, Bogotá - Colombia.
+    Lenguajes y Máquinas 2023-2.
 
+    Este modulo contiene las funciones que permiten la comunicación entre la vista y el modelo.
+    Se utiliza para ejecutar las funciones del modelo y retornar los resultados a la vista.
 
+    Autores:
+        - David Jimenez Mora Cod. 202213799.
+        - Gustavo Candela Rico Cod. 202223857.
 """
 
 from app.model import lexer

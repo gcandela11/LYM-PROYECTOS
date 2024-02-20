@@ -7,8 +7,7 @@
 
     Autores:
         - David Jimenez Mora Cod. 202213799.
-        - Catalina Álvarez Latorre Cod. 202220307.
-
+        - Gustavo Candela Rico Cod. 202223857.
 """
 
 import os

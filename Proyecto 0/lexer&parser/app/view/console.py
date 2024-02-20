@@ -1,8 +1,15 @@
 """
+    Universidad de los Andes, Bogotá - Colombia.
+    Lenguajes y Máquinas 2023-2.
 
+    Este modulo contiene la vista del programa.
+    Se utiliza para mostrar la interfaz de consola del programa y ejecutar las opciones seleccionadas por el usuario.
 
+    Autores:
+        - David Jimenez Mora Cod. 202213799.
+        - Gustavo Candela Rico Cod. 202223857.
 """
-import config as cf
+
 import os
 import time
 from app.controller import controller
@@ -103,7 +110,6 @@ def exec_opt1():
         if are_brackets_balanced:
             print(f"{'#' * 50} CREANDO TOKENS {'#' * 50}")
             tokens = controller.lex_code(code)
-
             print(f"{'#' * 50} TOKENS CREADOS {'#' * 50}\n")
 
             print("El proyecto se realizó con éxito, hasta este punto, por lo cual lo demás está comentado y no se ejecutará.")
@@ -127,7 +133,20 @@ def exec_opt1():
             print(f"{TypeError} - El número de paréntesis de apertura y cierre no es el mismo.")
             return 0
 
-def init():
+def init(config):
+    """
+    Entry point of the program.
+
+    Args:
+        config (module): The configuration module of the program.
+
+    Returns:
+        None
+    """
+
+    global cf
+    cf = config
+
     while True:
         print_menu()
         option = int(input(">>> "))
